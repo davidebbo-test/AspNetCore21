@@ -6,6 +6,6 @@ namespace MyClassLibrary
 {
     public class Hello
     {
-        public static string SayHello(string name) => $"Hello {name}! ({typeof(Hello).Assembly.Location})";
+        public static string SayHello(string name) => $"Hello {name}! ({typeof(Hello).Assembly.Location}) ({typeof(string).Assembly.Location})";
     }
 }
